@@ -128,22 +128,22 @@ var testArray1 = [3, 7, 10, 5, 4, 3, 3]
 var testArray2 = [7, 8, 2, 3, 1, 5, 4]
 // Expected output: [3, 7, 10, 5, 4, 8, 2, 1]
 
-//create a function called noDuplicate
-const noDuplicate = (array1, array2) => {
-//initiate a vaiable that contains both arrays and a variable set to empty array
-   let m = [array1 += array2]
-   let newArr = []
-//loop over the new combined array
-   for(let i=0; i<m.length; i++){
-//conditional that looks at each number in array if index returns -1 then push into empty array
-       if(newArr.indexOf(m[i] === -1)){
-           newArr.push(m[i])
-       }
-   }
-//return newArr
-   return newArr
-}
-console.log(noDuplicate(testArray1, testArray2))
+// //create a function called noDuplicate
+// const noDuplicate = (array1, array2) => {
+// //initiate a vaiable that contains both arrays and a variable set to empty array
+//    let m = [array1 += array2]
+//    let newArr = []
+// //loop over the new combined array
+//    for(let i=0; i<m.length; i++){
+// //conditional that looks at each number in array if index returns -1 then push into empty array
+//        if(newArr.indexOf(m[i] === -1)){
+//            newArr.push(m[i])
+//        }
+//    }
+// //return newArr
+//    return newArr
+// }
+// console.log(noDuplicate(testArray1, testArray2))
 
 
 
